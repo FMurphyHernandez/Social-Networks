@@ -1,0 +1,8 @@
+set.seed(100)
+opt<-c('A','B')
+J1<-sample(opt,1)
+J2<-sample(opt,1)
+if(J1=='B'){P1<-rbinom(1,1,.5)}
+else{P1<-1}
+if(J2=='B'){P2<-rbinom(1,1,.5)}
+else{P2<-1}
